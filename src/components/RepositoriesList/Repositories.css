@@ -1,0 +1,162 @@
+form {
+    padding: 14px;
+    margin-bottom: 32px;
+}
+input {
+    width: 33%;
+    margin-right: 0;
+    padding: 12px 18px;
+    border: 4px solid deeppink;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 0px;
+}
+
+button {
+    padding: 12px 18px;
+    border: 4px solid deeppink;
+    border-left: 0px;
+    border-bottom-right-radius: 16px;
+    font-weight: 500;
+    background: deeppink;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    color: white;
+    font-size: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 64px;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background: deeppink;
+    background-image: linear-gradient(
+        90deg,
+        hsl(328deg 100% 54%) 0%,
+        hsl(328deg 99% 57%) 51%,
+        hsl(327deg 98% 60%) 73%,
+        hsl(328deg 98% 66%) 85%,
+        hsl(328deg 98% 76%) 91%,
+        hsl(328deg 97% 85%) 95%,
+        hsl(328deg 100% 89%) 97%,
+        hsl(328deg 100% 92%) 98%,
+        hsl(328deg 100% 95%) 99%,
+        hsl(330deg 100% 98%) 100%,
+        hsl(0deg 0% 100%) 100%
+    );
+    padding: 32px;
+    color: white;
+    border: 4px solid white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 64px;
+    border-right: 0px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.content {
+    width: 60%;
+    padding: 1rem;
+    border: 4px solid hsl(328deg 100% 54%);
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 16px;
+}
+
+.links {
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-content: flex-end;
+    background: peachpuff;
+    margin: 3px 0px;
+    border-radius: 2px;
+}
+
+.links > a {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    text-decoration: none;
+    color: deeppink;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.keywords {
+    color: grey;
+}
+
+.word {
+    margin: 2px;
+}
+
+.owners {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background: silver;
+    border-radius: 2px;
+    border-bottom: 1px solid gray;
+}
+
+.publisher {
+    width: 70%;
+}
+
+.publisher-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.username {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.email {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.maintainer {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
