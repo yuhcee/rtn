@@ -18,7 +18,7 @@
 html,
 body {
     height: 100%;
-    padding: 32px;
+    padding: 24px;
     font-family: -apple-system, BlinkMacSystemFont, 'Avenir' 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
