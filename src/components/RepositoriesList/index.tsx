@@ -27,8 +27,8 @@ const RepositoriesList: React.FC = () => {
                     <TailSpin color="deeppink" height={50} width={50} />
                 </div>
             )}
-            {!loading &&
-                !error &&
+
+            {!loading && !error && data.length > 0 ? (
                 data.map((result, id) => (
                     <div className="wrapper" key={id}>
                         <div className="card">
@@ -94,7 +94,13 @@ const RepositoriesList: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                ))}
+                ))
+            ) : (
+                <div>
+                    {' '}
+                    <h1 className='station'>Your search results will appear here!</h1>{' '}
+                </div>
+            )}
         </div>
     );
 };
